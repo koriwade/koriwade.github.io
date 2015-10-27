@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-
-<html class="">
+<html lang="en-us">
+  <html class="">
 <head>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
   <meta name="viewport" content"width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
 </head>
 <title></title>
 
@@ -26,11 +27,6 @@
 <body>
   <p> Creative front end developer with a passion for all things tech.</p>
 
-    
-    
-    
-    
-    
 <footer>
   <div class="lockup">
     <div class="logo"></div>
