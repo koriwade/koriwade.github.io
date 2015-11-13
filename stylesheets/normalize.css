@@ -8,9 +8,11 @@ header {
   background-size: cover;
 }
 header .logo {
+  background: url(https://lh3.googleusercontent.com/AX05gSSYCHhOea4k1vLOGOX5nXb15H5QJWH1XzuzPiUKSU5kFbNp_95hUu6Um0etFPfle2YWaqUpWpxCS9XP3KKNkGQWGZfO59dbrlO5cMIZH1LNFu2PCzb7b0sCKYzZPG4DwaMuzjoRUQ8Ov996m0gGtyWkO-1Tf8AAzqt0LGV3ox_luwxGnB7u1LxKBw0u5b4c66nS6VeB_ckrZf44aifHa3Z_yaalX-EN_olwhGkMG5gwMcb6-04Hr3Qn3-O6oHQm3B_MRBtEgQo6wXkmz_klg5dB41MJmM2ufGRKqUbU8NsFU7TxHUvT0JMrtdRHnjz-GBn4pkCWJQqcQ18btFs8DcDEgnTk-mtqYlYka6mVeI0nzykA1-fcXi4cGC7ctQ0tVCzdek9N7PoWaAEOwY4Cz2v012iW3W8HlpMWhueV5JEN_k3-6trI5q5V4cj_A7fysWf7MFnKgrsIlPgPouIFd14wpMKacvqPiNifShZ0kVPCV1qwLJBw8DZz42ca_x0ZIdKpkM9ET1Ecy3lHhHA_6NCi1Zu18SYQ0vw1tqE=s200-no);
+  background-size: 100%;
+  background-repeat: no-repeat;
   height: 50px;
   width: 50px;
-  background: #999;
   float: left;
   margin: 10px 0 0 30px;
 }
@@ -66,9 +68,9 @@ body p {
 }
 
 footer {
-  position: fixed;
+  position: absolute;
   left: 0px;
-  bottom: 0px;
+  bottom: fixed;
   width: 100%;
   background: url(https://images.unsplash.com/photo-1440688807730-73e4e2169fb8?q=80&fm=jpg&s=79978a74e55792a7a5182ba0c0aa4e25) center center;
   background-size: cover;
@@ -78,9 +80,11 @@ footer .lockup {
   clear: both;
 }
 footer .lockup .logo {
+  background: url(https://lh3.googleusercontent.com/AX05gSSYCHhOea4k1vLOGOX5nXb15H5QJWH1XzuzPiUKSU5kFbNp_95hUu6Um0etFPfle2YWaqUpWpxCS9XP3KKNkGQWGZfO59dbrlO5cMIZH1LNFu2PCzb7b0sCKYzZPG4DwaMuzjoRUQ8Ov996m0gGtyWkO-1Tf8AAzqt0LGV3ox_luwxGnB7u1LxKBw0u5b4c66nS6VeB_ckrZf44aifHa3Z_yaalX-EN_olwhGkMG5gwMcb6-04Hr3Qn3-O6oHQm3B_MRBtEgQo6wXkmz_klg5dB41MJmM2ufGRKqUbU8NsFU7TxHUvT0JMrtdRHnjz-GBn4pkCWJQqcQ18btFs8DcDEgnTk-mtqYlYka6mVeI0nzykA1-fcXi4cGC7ctQ0tVCzdek9N7PoWaAEOwY4Cz2v012iW3W8HlpMWhueV5JEN_k3-6trI5q5V4cj_A7fysWf7MFnKgrsIlPgPouIFd14wpMKacvqPiNifShZ0kVPCV1qwLJBw8DZz42ca_x0ZIdKpkM9ET1Ecy3lHhHA_6NCi1Zu18SYQ0vw1tqE=s200-no);
+  background-size: 100%;
+  background-reapeat: no-repeat;
   height: 50px;
   width: 50px;
-  background: #999;
   float: left;
   margin-right: 30px;
   margin-bottom: 10px;
@@ -109,4 +113,19 @@ footer .lockup a {
 }
 footer .lockup a:hover {
   color: black;
+}
+
+h3 {
+  text-align: center;
+  padding: 100px 0 30px;
+}
+
+.face-lockup {
+  max-width: 780px;
+  margin: 0 auto;
+}
+.face-lockup .face-img {
+  height: 200px;
+  width: 100px;
+  background: url();
 }
