@@ -1,0 +1,25 @@
+{
+  "name": "koriwade.io",
+  "version": "1.0.0",
+  "description": "github page for kori wade",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "gulp-sass": "^3.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koriwade/koriwade.github.io.git"
+  },
+  "author": "kori wade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/koriwade/koriwade.github.io/issues"
+  },
+  "homepage": "https://github.com/koriwade/koriwade.github.io#readme"
+}
