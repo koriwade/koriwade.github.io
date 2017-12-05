@@ -5,53 +5,62 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css" media="screen">
+  <link rel="stylesheet" type="text/css" href="assets/main.css" media="screen">
   <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 </head>
 <title>Kori Wade</title>
-
 <header>
-  <div class="logo"></div>
   <nav>
-    <a href="">About Me</a>
-    <a href="">Work</a>
-    <a href="">Clients</a>
-    <a href="">Contact</a>
-  </nav>  
-  <h1><span>Kori Wade</span></h1>
-  <h2 class="kicker">Front end // Back end // Developer</h2>  
+    <div class="wrapper">
+      <ul class="nav">
+        <li class="logo">Kori</li>
+        <li><a href="">Work</a></li>          
+        <li><a href="">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <h1><span>Hi, I'm Kori</span></h1>
+  <h3 class="kicker">I'm a web developer.</h3>  
 </header>
 <body>
-  <section class="skills">
-    <div class="wrapper">
-      <h3>Skills</h3>
-      <div class="flex-row">
-        <div class="skill">
-          <h4>Sass/Less</h4>
-          <p>9/10</p>
-        </div>
-        <div class="skill">
-          <h4>Wordpress</h4>
-          <p>8/10</p>
-        </div>
-        <div class="skill">
-          <h4>PHP</h4>
-          <p>7/10</p>
-        </div>
-        <div class="skill">
-          <h4>Javascript</h4>
-          <p>6/10</p>
-        </div>
-    </div>
-  </section>
-  <section class="work">
-    <div class="wrapper">
-      <h3>Work</h3>
-      <div class="flex-row">
-        
+  <div id="home">
+    <section class="about">
+      <div class="wrapper">
+        <p>I am a web developer from Maryland who enjoys all things tech. Here are a few samples of my work.</p>
       </div>
-    </div>
-  </section>
+    </section>
+    <section class="work">
+      <div class="wrapper">
+        <h2>Work</h2>
+        <div class="flex-row">
+          
+        </div>
+        <div class="btn">View More</div>
+      </div>
+    </section>
+    <section class="skills">
+      <div class="wrapper">
+        <h2>Skills</h2>
+        <div class="flex-row">
+          <div class="skill">
+            <h3>Sass/Less</h3>
+            <p>9/10</p>
+          </div>
+          <div class="skill">
+            <h3>Wordpress</h3>
+            <p>8/10</p>
+          </div>
+          <div class="skill">
+            <h3>PHP</h3>
+            <p>7/10</p>
+          </div>
+          <div class="skill">
+            <h3>Javascript</h3>
+            <p>6/10</p>
+          </div>
+      </div>
+    </section>    
+  </div>
 <footer>
   <div class="lockup">
     <div class="logo"></div>
@@ -59,8 +68,8 @@
       <p class="copyright">All content copyright 2017</p>
     </div>
   </div>  
-</footer>   
-<script src="//ajax.googleapis.com/ajax/libs/2.1.1/jquery.min.js></script>
+</footer>
 <script src="assets/js/functions.js"></script>
+<script src="snap.svg-min.js"></script>
 </body>
 </html>

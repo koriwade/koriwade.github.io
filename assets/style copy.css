@@ -1,0 +1,129 @@
+html {
+  font-family: Roboto, sans-serif; }
+
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto; }
+
+.flex-row {
+  display: flex;
+  flex-flow: row-wrap;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center; }
+
+header {
+  width: 100%;
+  height: 70vh;
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+  background-size: cover; }
+
+header .logo {
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 50px;
+  float: left;
+  margin: 10px 0 0 30px; }
+
+header .logo path {
+  fill: rgba(0, 0, 0, 0.4); }
+
+header nav {
+  float: right;
+  margin: 30px 30px 0 0; }
+
+header nav a {
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 17px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 300;
+  letter-spacing: 1.1px; }
+
+header nav a:hover {
+  color: #3e3e3e;
+  font-weight: 300; }
+
+header h1 {
+  text-align: center;
+  font-size: 72px;
+  font-weight: 600;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 20px;
+  clear: both;
+  padding-top: 100px; }
+
+header h1 span {
+  display: inline-block;
+  padding: 0.2em 0.5em;
+  border: white solid 10px; }
+
+header .kicker {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0.5em;
+  color: white;
+  line-height: 1; }
+
+section.skills {
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+  padding: 100px 15px; }
+
+.skills h3 {
+  font-size: 70px;
+  font-weight: 100;
+  color: #3e3e3e;
+  font-family: 'Catamaran', sans-serif;
+  text-align: center;
+  margin: 0px;
+  padding-bottom: 40px; }
+
+body {
+  margin: 0; }
+
+body p {
+  text-align: center; }
+
+footer {
+  position: absolute;
+  left: 0px;
+  bottom: fixed;
+  width: 100%;
+  background: url(https://images.unsplash.com/photo-1440688807730-73e4e2169fb8?q=80&fm=jpg&s=79978a74e55792a7a5182ba0c0aa4e25) center center;
+  background-size: cover; }
+
+footer .lockup {
+  padding: 30px;
+  clear: both; }
+
+footer .lockup .logo path {
+  fill: rgba(0, 0, 0, 0.5); }
+
+footer .lockup .content-wrap {
+  float: left; }
+
+footer .lockup .copyright {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.4);
+  text-align: left; }
+
+footer .lockup a {
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  margin-right: 30px; }
+
+footer .lockup a:hover {
+  color: black; }
