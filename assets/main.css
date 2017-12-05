@@ -88,6 +88,8 @@ header {
       header .nav a:hover {
         color: #3e3e3e;
         font-weight: 300; }
+    header .nav .logo {
+      color: #fff; }
   header h1 {
     font-family: 'Cookie', cursive;
     text-align: center;
@@ -107,11 +109,6 @@ header {
     line-height: 1;
     letter-spacing: 4px; }
 
-#home .about {
-  text-align: center;
-  max-width: 500px;
-  margin: 0 auto; }
-
 #home .skills h2 {
   text-align: center; }
 
@@ -121,6 +118,11 @@ header {
 #home .skills p {
   text-align: center; }
 
+#home .work .intro {
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto; }
+
 #home .work h2 {
   text-align: center; }
 
@@ -128,33 +130,9 @@ header {
   text-align: center; }
 
 footer {
+  background-color: #9cdada;
+  padding: 40px 15px;
   position: absolute;
   left: 0px;
   bottom: fixed;
-  width: 100%;
-  background: url(https://images.unsplash.com/photo-1440688807730-73e4e2169fb8?q=80&fm=jpg&s=79978a74e55792a7a5182ba0c0aa4e25) center center;
-  background-size: cover; }
-
-footer .lockup .content-wrap {
-  float: left; }
-
-footer .lockup .copyright {
-  margin: 0;
-  text-transform: uppercase;
-  font-size: 12px;
-  color: rgba(255, 255, 255, 0.4);
-  text-align: left; }
-
-footer .lockup a {
-  font-size: 14px;
-  font-weight: 700;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: rgba(0, 0, 0, 0.5);
-  display: inline-block;
-  margin-right: 30px; }
-  footer .lockup a:hover {
-    color: #3e3e3e; }
-
-footer .lockup a:hover {
-  color: black; }
+  width: 100%; }
