@@ -3,7 +3,8 @@ html {
   font-family: Roboto, sans-serif; }
 
 body {
-  margin: 0; }
+  margin: 0;
+  margin-top: -16px; }
 
 p {
   font-family: 'Catamaran', sans-serif;
@@ -22,7 +23,7 @@ h1 {
 h2 {
   font-size: 60px;
   font-weight: 100;
-  color: #86bdbc;
+  color: #669291;
   font-family: 'Catamaran', sans-serif;
   margin: 0px;
   padding-bottom: 40px; }
@@ -30,7 +31,7 @@ h2 {
 h3 {
   font-size: 25px;
   font-weight: 100;
-  color: #3e3e3e;
+  color: #86bdbc;
   font-family: 'Catamaran', sans-serif;
   margin: 0px; }
 
@@ -43,9 +44,10 @@ ul {
   background-color: #86bdbc;
   padding: 12px 15px;
   text-align: center;
-  margin: 0 auto; }
+  margin: 0 auto;
+  transition: 300ms; }
   .btn:hover {
-    color: #3e3e3e; }
+    color: #669291; }
 
 section {
   padding: 100px 0px; }
@@ -65,7 +67,7 @@ section {
 
 header {
   width: 100%;
-  height: 70vh;
+  height: 60vh;
   background: linear-gradient(to bottom, rgba(254, 214, 227, 0.9), rgba(168, 237, 234, 0.9)), url(/assets/img/forest.jpg);
   background-size: cover;
   background-repeat: no-repeat; }
@@ -81,19 +83,22 @@ header {
       font-weight: 700;
       text-transform: uppercase;
       text-decoration: none;
-      color: white;
+      color: #86bdbc;
       font-family: 'Catamaran', sans-serif;
       font-weight: 300;
-      letter-spacing: 1.1px; }
+      letter-spacing: 1.1px;
+      transition: 300ms; }
       header .nav a:hover {
-        color: #3e3e3e;
+        color: #669291;
         font-weight: 300; }
+      header .nav a:active {
+        color: #669291; }
     header .nav .logo {
       color: #fff; }
   header h1 {
     font-family: 'Cookie', cursive;
     text-align: center;
-    font-size: 80px;
+    font-size: 90px;
     font-weight: 100;
     color: white;
     letter-spacing: 0.05em;
@@ -108,6 +113,14 @@ header {
     color: white;
     line-height: 1;
     letter-spacing: 4px; }
+
+header.work {
+  background: linear-gradient(to bottom, rgba(254, 214, 227, 0.9), rgba(168, 237, 234, 0.9)), url(/assets/img/mountain.jpg);
+  height: 40vh;
+  background-position: bottom; }
+  header.work h1 {
+    padding-top: 100px;
+    font-size: 100px; }
 
 #home .skills h2 {
   text-align: center; }
@@ -131,8 +144,18 @@ header {
 
 footer {
   background-color: #9cdada;
-  padding: 40px 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   position: absolute;
   left: 0px;
   bottom: fixed;
   width: 100%; }
+  footer .copyright p {
+    text-align: center;
+    font-size: 15px;
+    color: #86bdbc; }
+    footer .copyright p a {
+      color: #86bdbc;
+      transition: 300ms; }
+      footer .copyright p a:hover {
+        color: #669291; }
