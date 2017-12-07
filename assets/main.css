@@ -153,6 +153,12 @@ header.work {
   #work #mosaic {
     background-color: #d95a24;
     text-align: center; }
+    #work #mosaic .site-img {
+      max-width: 800px;
+      margin: 0 auto; }
+      #work #mosaic .site-img img {
+        width: 100%;
+        height: auto; }
     #work #mosaic h3 {
       color: #fff; }
     #work #mosaic p {
