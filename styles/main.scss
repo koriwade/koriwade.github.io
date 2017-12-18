@@ -238,6 +238,7 @@ header.work {
     .site-img {
       max-width: 800px;
       margin: 0 auto;
+      padding-bottom: 20px;
       img {
         width: 100%;
         height: auto;
@@ -249,10 +250,14 @@ header.work {
     p {
       color: #fff;
     }
-    .btn {
-      color: #d95a24;
-      background-color: #262931;
-    }
+    a {
+      text-decoration: none;
+      .btn {
+        margin-top: 40px;
+        color: #d95a24;
+        background-color: #262931;
+      }
+    }    
   }
   #carpenters {
     background-color: #202536;
@@ -260,6 +265,7 @@ header.work {
     .site-img {
       max-width: 800px;
       margin: 0 auto;
+      padding-bottom: 20px;
       img {
         width: 100%;
         height: auto;
@@ -271,9 +277,13 @@ header.work {
     p {
       color: #fff;
     }
-    .btn {
-      color: #202536;
-      background-color: #a28058;
+    a {
+      text-decoration: none;
+      .btn {
+        margin-top: 40px;
+        color: #202536;
+        background-color: #a28058;
+      }
     }
   }
   #nccmp {
@@ -282,6 +292,7 @@ header.work {
     .site-img {
       max-width: 800px;
       margin: 0 auto;
+      padding-bottom: 20px;
       img {
         width: 100%;
         height: auto;
@@ -293,10 +304,14 @@ header.work {
     p {
       color: #fff;
     }
-    .btn {
-      color: #ccc;
-      background-color: #e61e30;
-    }
+    a {
+      text-decoration: none;
+      .btn {
+        margin-top: 40px;
+        color: #ccc;
+        background-color: #e61e30;
+      }
+    }    
   }
   #nabtu {
     background-color: #a9362d;
@@ -304,6 +319,7 @@ header.work {
     .site-img {
       max-width: 800px;
       margin: 0 auto;
+      padding-bottom: 20px;
       img {
         width: 100%;
         height: auto;
@@ -315,10 +331,14 @@ header.work {
     p {
       color: #fff;
     }
-    .btn {
-      color: #fff;
-      background-color: $black;
-    }
+    a {
+      text-decoration: none;
+      .btn {
+        margin-top: 40px;
+        color: #fff;
+        background-color: $black;
+      }
+    }    
   }
 }
 footer {

@@ -205,7 +205,8 @@ header.work {
     text-align: center; }
     #work #mosaic .site-img {
       max-width: 800px;
-      margin: 0 auto; }
+      margin: 0 auto;
+      padding-bottom: 20px; }
       #work #mosaic .site-img img {
         width: 100%;
         height: auto; }
@@ -213,15 +214,19 @@ header.work {
       color: #fff; }
     #work #mosaic p {
       color: #fff; }
-    #work #mosaic .btn {
-      color: #d95a24;
-      background-color: #262931; }
+    #work #mosaic a {
+      text-decoration: none; }
+      #work #mosaic a .btn {
+        margin-top: 40px;
+        color: #d95a24;
+        background-color: #262931; }
   #work #carpenters {
     background-color: #202536;
     text-align: center; }
     #work #carpenters .site-img {
       max-width: 800px;
-      margin: 0 auto; }
+      margin: 0 auto;
+      padding-bottom: 20px; }
       #work #carpenters .site-img img {
         width: 100%;
         height: auto; }
@@ -229,15 +234,19 @@ header.work {
       color: #fff; }
     #work #carpenters p {
       color: #fff; }
-    #work #carpenters .btn {
-      color: #202536;
-      background-color: #a28058; }
+    #work #carpenters a {
+      text-decoration: none; }
+      #work #carpenters a .btn {
+        margin-top: 40px;
+        color: #202536;
+        background-color: #a28058; }
   #work #nccmp {
     background-color: #003875;
     text-align: center; }
     #work #nccmp .site-img {
       max-width: 800px;
-      margin: 0 auto; }
+      margin: 0 auto;
+      padding-bottom: 20px; }
       #work #nccmp .site-img img {
         width: 100%;
         height: auto; }
@@ -245,15 +254,19 @@ header.work {
       color: #fff; }
     #work #nccmp p {
       color: #fff; }
-    #work #nccmp .btn {
-      color: #ccc;
-      background-color: #e61e30; }
+    #work #nccmp a {
+      text-decoration: none; }
+      #work #nccmp a .btn {
+        margin-top: 40px;
+        color: #ccc;
+        background-color: #e61e30; }
   #work #nabtu {
     background-color: #a9362d;
     text-align: center; }
     #work #nabtu .site-img {
       max-width: 800px;
-      margin: 0 auto; }
+      margin: 0 auto;
+      padding-bottom: 20px; }
       #work #nabtu .site-img img {
         width: 100%;
         height: auto; }
@@ -261,9 +274,12 @@ header.work {
       color: #fff; }
     #work #nabtu p {
       color: #fff; }
-    #work #nabtu .btn {
-      color: #fff;
-      background-color: #3e3e3e; }
+    #work #nabtu a {
+      text-decoration: none; }
+      #work #nabtu a .btn {
+        margin-top: 40px;
+        color: #fff;
+        background-color: #3e3e3e; }
 
 footer {
   background-color: #9cdada;
