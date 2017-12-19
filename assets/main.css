@@ -213,7 +213,9 @@ header.work {
     #work #mosaic h3 {
       color: #fff; }
     #work #mosaic p {
-      color: #fff; }
+      color: #fff;
+      max-width: 850px;
+      margin: 25px auto; }
     #work #mosaic a {
       text-decoration: none; }
       #work #mosaic a .btn {
@@ -233,7 +235,9 @@ header.work {
     #work #carpenters h3 {
       color: #fff; }
     #work #carpenters p {
-      color: #fff; }
+      color: #fff;
+      max-width: 850px;
+      margin: 25px auto; }
     #work #carpenters a {
       text-decoration: none; }
       #work #carpenters a .btn {
@@ -253,7 +257,9 @@ header.work {
     #work #nccmp h3 {
       color: #fff; }
     #work #nccmp p {
-      color: #fff; }
+      color: #fff;
+      max-width: 850px;
+      margin: 25px auto; }
     #work #nccmp a {
       text-decoration: none; }
       #work #nccmp a .btn {
@@ -273,7 +279,9 @@ header.work {
     #work #nabtu h3 {
       color: #fff; }
     #work #nabtu p {
-      color: #fff; }
+      color: #fff;
+      max-width: 850px;
+      margin: 25px auto; }
     #work #nabtu a {
       text-decoration: none; }
       #work #nabtu a .btn {
