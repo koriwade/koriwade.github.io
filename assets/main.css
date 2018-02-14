@@ -303,8 +303,8 @@ footer {
   footer .copyright p {
     font-size: 15px;
     color: #86bdbc; }
-    footer .copyright p a {
-      color: #86bdbc;
-      transition: 300ms; }
-      footer .copyright p a:hover {
-        color: #669291; }
+  footer .copyright a {
+    color: #86bdbc;
+    transition: 300ms; }
+    footer .copyright a:hover {
+      color: #669291; }

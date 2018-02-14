@@ -366,12 +366,12 @@ footer {
     p {
       font-size: 15px;
       color: $dark-blue;
-      a {
-        color: $dark-blue;
-        transition: 300ms;
-        &:hover {
-          color: $darker-blue;
-        }
+    }
+    a {
+      color: $dark-blue;
+      transition: 300ms;
+      &:hover {
+        color: $darker-blue;
       }
     }
   }
