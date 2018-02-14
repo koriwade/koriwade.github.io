@@ -375,4 +375,11 @@ footer {
       }
     }
   }
+  a {
+    color: $dark-blue;
+    transition: 300ms;
+    &:hover {
+      color: $darker-blue;
+    }
+  }
 }
