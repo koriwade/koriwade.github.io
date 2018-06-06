@@ -89,8 +89,7 @@ section {
 nav {
   position: absolute;
   width: 100%;
-  top: 0px;
-  z-index: 10; }
+  top: 0px; }
   nav .nav {
     padding-top: 25px;
     display: flex;
@@ -123,25 +122,18 @@ nav {
 header {
   width: 100%;
   height: 60vh;
-  background: url(../assets/img/forest.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  height: 100%;
+  background: -webkit-linear-gradient(270deg, #4ac1ff, #795bb0);
+  background: -moz-linear-gradient(270deg, #4ac1ff, #795bb0);
+  background: -o-linear-gradient(270deg, #4ac1ff, #795bb0);
+  background: -ms-linear-gradient(270deg, #4ac1ff, #795bb0);
+  background: linear-gradient(180deg, #4ac1ff, #795bb0);
+  position: absolute;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  position: relative; }
-  header .gradient {
-    position: absolute;
-    top: 0;
-    left: 0;
-    -webkit-animation: Gradient 15s ease infinite;
-    -moz-animation: Gradient 15s ease infinite;
-    animation: Gradient 15s ease infinite;
-    background: linear-gradient(-45deg, rgba(254, 214, 227, 0.9), rgba(168, 237, 234, 0.9), rgba(254, 214, 227, 0.9), rgba(168, 237, 234, 0.9));
-    background-size: 400% 400%;
-    width: 100%;
-    height: 100%; }
+  justify-content: center; }
   header h1 {
     font-family: 'Cookie', cursive;
     text-align: center;
@@ -150,9 +142,7 @@ header {
     color: white;
     margin-top: 0px;
     letter-spacing: 0.05em;
-    margin-bottom: 20px;
-    position: relative;
-    z-index: 10; }
+    margin-bottom: 20px; }
     @media (max-width: 768px) {
       header h1 {
         font-size: 70px;
@@ -167,9 +157,7 @@ header {
     letter-spacing: 0.5em;
     color: white;
     line-height: 1;
-    letter-spacing: 4px;
-    position: relative;
-    z-index: 10; }
+    letter-spacing: 4px; }
     @media (max-width: 768px) {
       header h3.kicker {
         font-size: 22px; } }
@@ -199,25 +187,12 @@ header {
   text-align: center; }
 
 header.work {
-  background: url(../assets/img/mountain.jpg);
-  height: 60vh;
+  background: linear-gradient(to bottom, rgba(254, 214, 227, 0.9), rgba(168, 237, 234, 0.9)), url(/assets/img/mountain.jpg);
+  height: 40vh;
   background-position: bottom; }
-  header.work .gradient {
-    position: absolute;
-    top: 0;
-    left: 0;
-    -webkit-animation: Gradient 15s ease infinite;
-    -moz-animation: Gradient 15s ease infinite;
-    animation: Gradient 15s ease infinite;
-    background: linear-gradient(-45deg, rgba(254, 214, 227, 0.9), rgba(168, 237, 234, 0.9), rgba(254, 214, 227, 0.9), rgba(168, 237, 234, 0.9));
-    background-size: 400% 400%;
-    width: 100%;
-    height: 100%; }
   header.work h1 {
     padding-top: 65px;
-    font-size: 100px;
-    position: relative;
-    z-index: 10; }
+    font-size: 100px; }
 
 #work {
   padding-top: 100px; }
@@ -336,27 +311,5 @@ footer {
     transition: 300ms; }
     footer a:hover {
       color: #669291; }
-
-@-webkit-keyframes Gradient {
-  0% {
-    background-position: 0% 50%; }
-  50% {
-    background-position: 100% 50%; }
-  100% {
-    background-position: 0% 50%; } }
-@-moz-keyframes Gradient {
-  0% {
-    background-position: 0% 50%; }
-  50% {
-    background-position: 100% 50%; }
-  100% {
-    background-position: 0% 50%; } }
-@keyframes Gradient {
-  0% {
-    background-position: 0% 50%; }
-  50% {
-    background-position: 100% 50%; }
-  100% {
-    background-position: 0% 50%; } }
 
 /*# sourceMappingURL=main.css.map */
