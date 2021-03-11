@@ -192,7 +192,8 @@ header.work {
   background-position: bottom; }
   header.work h1 {
     padding-top: 65px;
-    font-size: 100px; }
+    font-size: 100px; 
+    color: #fff !important;}
 
 #work {
   padding-top: 100px; }

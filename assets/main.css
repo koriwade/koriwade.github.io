@@ -6,7 +6,7 @@ body {
   margin: 0; }
 
 * {
-  transition: all .65s ease;
+  /*transition: all .65s ease;*/
   box-sizing: border-box; }
 
 p {
@@ -183,14 +183,22 @@ header {
 
 #home .skills h2 {
   text-align: center;
-  padding-bottom: 60px; }
+  padding-bottom: 60px; 
+}
 #home .skills h3 {
-  font-weight: 300; }
+  font-weight: 300; 
+}
 #home .skills p {
-  text-align: center; }
+  text-align: center; 
+}
 @media (max-width: 992px) {
   #home .skills .skill {
-    padding-bottom: 25px; } }
+    padding-bottom: 25px; 
+  } 
+}
+#home .skills .skill.react {
+  width: 200px;
+}
 #home .skills .skill img {
   max-width: 200px; }
 #home .work .intro {
@@ -205,7 +213,8 @@ header {
 header.work {
   background: url(../assets/img/mountain.jpg);
   height: 60vh;
-  background-position: bottom; }
+  background-position: bottom;
+  background-size: cover; }
   header.work .gradient {
     position: absolute;
     top: 0;
